@@ -1,0 +1,203 @@
+"#boardingPass": {
+	top					: 10,
+	left				: 20,
+	right				: 20,
+	height				: Ti.UI.SIZE,
+	layout				: 'vertical',
+	backgroundColor		: '#FFF',
+	viewShadowColor		: "#80000000",
+	viewShadowRadius	: 3,
+	viewShadowOffset	: {
+		x	: 0,
+		y	: 1
+	}
+}
+
+"#classHeader": {
+	backgroundColor		: '#DBB370',
+	height				: 90,
+	width				: Titanium.UI.FILL,
+	layout				: 'absolute'
+}
+
+"#logo": {
+	image				: '/images/boardingPassLogo.png',
+	top					: 10,
+	left				: 10,
+	right				: 10
+}
+
+"#className": {
+	left				: 89,
+	color				: '#FFF',
+	bottom				: 8,
+	font				: {
+		fontFamily	: 'AkkuratProBold',
+		fontSize	: 14
+	}
+}
+
+"#baggageButton": {
+	title				: 'BAGGAGE',
+	right				: 10,
+	width				: 95,
+	borderColor			: '#FFF',
+	height				: 26,
+	bottom				: 6,
+	color				: '#FFF',
+	borderWidth			: 1,
+	visible				: false,
+	borderRadius		: 3,
+	font				: {
+		fontSize	: 13,
+		fontFamily	: 'AkkuratProBold',
+	}
+}
+
+"#flightInfo": {
+	top					: 0,
+	height				: Ti.UI.SIZE,
+	layout				: 'absolute'
+}
+
+"#boardingInfo": {
+	top					: 10,
+	height				: Titanium.UI.SIZE,
+	layout				: 'horizontal'
+}
+
+".boardingItem": {
+	width				: '33%',
+	layout				: 'vertical',
+	height				: 76
+}
+
+".boardingItemTitle": {
+	top					: 0,
+	textAlign			: 'center',
+	color				: '#9D9999',
+	font				: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 14,
+	}
+}
+
+".boardingItemContent": {
+	top					: 5,
+	textAlign			: 'center',
+	color				: '#DBB370',
+	font				: {
+		fontFamily	: 'AkkuratProBold',
+		fontSize	: 24
+	}
+}
+
+".boardingItemSecondaryContent": {
+	top					: 5,
+	textAlign			: 'center',
+	color				: '9D9999',
+	font				: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 13,
+	}
+}
+
+"#dateView": {
+	left				: 0,
+	top					: 0,
+	height				: 105,
+	width				: 70,
+}
+
+"#dateLabel": {
+	textAlign			: 'center',
+	top					: 27,
+	color				: '#9D9999',
+	font				: {
+		fontFamily	: 'AkkuratProBold',
+		fontSize	: 15
+	}
+}
+
+"#dayLabel": {
+	top					: 54,
+	color				: '#9D9999',
+	textAlign			: 'center',
+	font				: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 15,
+	}
+}
+
+"#separator": {
+	right				: 0,
+	height				: 72,
+	width				: 1,
+	backgroundColor		: '#D8D8D8'
+}
+
+"#fromView": {
+	top					: 0,
+	width				: 90,
+	left				: 71,
+	height				: 105,
+}
+
+"#fromCity": {
+	top					: 22,
+	textAlign			: 'center',
+	color				: '#000',
+	font				: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 24,
+	}
+}
+
+"#departureTime": {
+	top					: 54,
+	textAlign			: 'center',
+	color				: '#9D9999',
+	font				: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 16,
+	}
+}
+
+"#tripView": {
+	top					: 0,
+	width				: 90,
+	left				: 161,
+	height				: 105,
+}
+
+"#tripIcon": {
+	top					: 28,
+	image				: '/images/flightSymbol.png'
+}
+
+"#flightNum": {
+	top					: 54,
+	textAlign			: 'center',
+	color				: '#9D9999',
+	font				: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 16,
+	}
+}
+
+"#toView": {
+	top					: 0,
+	width				: 90,
+	right				: 0,
+	height				: 105,
+}
+
+"#toCity": {
+	top					: 22,
+	textAlign			: 'center',
+	color				: '#000',
+	font				: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 24,
+	}
+}

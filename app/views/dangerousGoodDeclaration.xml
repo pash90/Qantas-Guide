@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="dangerousGoodDeclaration" onOpen="setup">
+		<View id="container">
+			<View id="header">
+				<Label id="headerLabel">Dangerous Goods Declaration</Label>
+			</View>
+			
+			<Label id="message" />
+			
+			<Button id="primaryButton" class="actionButton" onClick="noDeclaration">NOTHING TO DECLARE</Button>
+			<Button id="secondaryButton" class="actionButton" onClick="needAssistance">NEED ASSISTANCE</Button>
+		</View>
+	</Window>
+</Alloy>

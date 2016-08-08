@@ -1,0 +1,50 @@
+<Alloy>
+	<Window id="index">
+		<View id="nav">
+			<Label id="welcome" />
+			
+			<Button id="logoutButton" />
+		</View>
+		
+		<View id="subNav">
+			<Label id="ffStatus" />
+			
+			<Label id="ffNumber" />
+		</View>
+		
+		<ScrollView id="container">
+			<Button id="helpButton" />
+			
+			<Label id="cardLabel" class="cardLabel">Your Next Trip</Label>
+			<View id="nextTripCard">
+				<View id="dateView">
+					<Label id="dateLabel">07 AUG</Label>
+					
+					<Label id="dayLabel">SUN</Label>
+					
+					<View id="separator" />
+				</View>
+				
+				<View id="fromView">
+					<Label id="fromCity">SYD</Label>
+					
+					<Label id="departureTime">17:15</Label>
+				</View>
+				
+				<View id="tripView">
+					<ImageView id="tripIcon" />
+					
+					<Label id="flightNum">QF451</Label>
+				</View>
+				
+				<View id="toView">
+					<Label id="toCity">MEL</Label>
+					
+					<Label id="arrivalTime">18:30</Label>
+				</View>
+				
+				<Button id="checkInButton">Tap to check in and get your boarding pass</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

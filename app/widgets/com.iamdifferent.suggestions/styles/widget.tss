@@ -1,0 +1,49 @@
+"#suggestions": {
+	top					: 20,
+	height				: 144,
+	left				: 20,
+	right				: 20,
+	layout				: 'absolute'
+}
+
+".cardLabel": {
+	top				: 20,
+	left			: 20,
+	color			: '#4B4B4B',
+	font			: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 15,
+	}
+}
+
+"#scroller": {
+	top					: 50,
+	left				: 0,
+	right				: 0,
+	height				: 144,
+	layout				: 'horizontal',
+}
+
+".item": {
+	width				: 117,
+	height				: 144,
+	left				: 20,
+	backgroundColor		: '#FFF',
+	layout				: 'absolute',
+	clipMode			: Titanium.UI.iOS.CLIP_MODE_ENABLED
+}
+
+".itemImage": {
+	top					: 0,
+	height				: 90,
+}
+
+".itemLabel": {
+	textAlign		: 'center',
+	bottom			: 9,
+	color			: '#D9323232',
+	font			: {
+		//fontFamily	: 'BrauerNeueStd-Regular',
+		fontSize	: 14
+	}
+}

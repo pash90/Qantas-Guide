@@ -1,0 +1,43 @@
+"#baggageDetails": {
+	backgroundColor	: '#F5F5F5',
+	statusBarStyle	: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+
+"#nav": {
+	top				: 0,
+	height			: 127,
+	width			: Ti.UI.FILL,
+	backgroundColor	: '#EE0000'
+}
+
+"#welcome": {
+	text			: 'Your Bags',
+	left			: 20,
+	bottom			: 20,
+	color			: '#FFF',
+	font			: {
+		fontFamily	: 'BrauerNeueStd-Regular',
+		fontSize	: 26
+	}
+}
+
+"#logoutButton": {
+	title			: 'DONE',
+	color			: '#FFF',
+	borderColor		: '#FFF',
+	height			: 27,
+	width			: 99,
+	right			: 20,
+	bottom			: 20,
+	borderWidth		: 1,
+	borderRadius	: 3,
+	font			: {
+		fontFamily	: 'AkkuratProBold',
+		fontSize	: 14
+	}
+}
+
+"#bags": {
+	top				: 127,
+	height			: Titanium.UI.SIZE
+}

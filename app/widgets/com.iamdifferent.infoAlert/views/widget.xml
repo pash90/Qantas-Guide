@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="alert">
+		<View id="container">
+			<View id="header">
+				<Label id="headerLabel" />
+			</View>
+			
+			<Label id="message" />
+			
+			<Button id="actionButton" onClick="dismissAlert" />
+		</View>
+	</Window>
+</Alloy>

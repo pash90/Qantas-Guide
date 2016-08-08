@@ -1,0 +1,94 @@
+"#login": {
+	backgroundColor	: '#FFF',
+	layout			: 'vertical',
+	textAlign		: 'left',
+	tintColor		: '#EE0000'
+}
+
+"#closeButton": {
+	left			: 20,
+	top				: 84,
+	width			: 45,
+	height			: 45,
+	image			: '/images/close.png',
+	tintColor		: '#D9323232',
+	visible			: false,
+}
+
+"#header": {
+	color	: '#000',
+	left	: 20,
+	top		: 40,
+	font	: {
+		fontFamily	: 'BrauerNeueStd-Regular',
+		fontSize	: 36
+	}
+}
+
+".field": {
+	top		: 30,
+	left	: 20,
+	right	: 20,
+	height	: 48,
+	layout	: 'absolute',
+}
+
+".bottomBorder": {
+	height			: 1,
+	bottom			: 0,
+	backgroundColor	: '#D8D8D8'
+}
+
+"#ffNum": {
+	width			: Ti.UI.FILL,
+	value			: 1234567,
+	color			: '#000',
+	hintText		: 'Enter your frequent flyer number',
+	font			: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 16
+	}
+}
+
+"#lastName": {
+	width			: Ti.UI.FILL,
+	value			: 'SMITH',
+	color			: '#000',
+	hintText		: 'Your last name',
+	font			: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 16
+	}
+}
+
+"#pin": {
+	width			: Ti.UI.FILL,
+	value			: 1234,
+	passwordMask	: true,
+	color			: '#000',
+	hintText		: 'Enter your PIN',
+	font			: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 16
+	}
+}
+
+"#loginButton": {
+	top				: 40,
+	left			: 20,
+	right			: 20,
+	height			: 54,
+	borderRadius	: 2,
+	title			: 'LOGIN',
+	color			: '#FFF',
+	backgroundColor	: '#EE0000',
+	font			: {
+		fontFamily	: 'AkkuratProBold',
+		fontSize	: 16
+	}
+}
+
+"#indicator": {
+	top				: 0,
+	indicatorColor	: '#EE0000'
+}

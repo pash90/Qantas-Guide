@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="fastpass">
+		<ImageView id="logo" />
+		
+		<Label id="message">We understand time isn’t always on our side.\n\nYou are late for your flight and this pass will allow you to jump the queue at security checking so that you do not miss your flight.\n\nPlease show this at the security check for the same.</Label>
+		
+		<ImageView id="securityPass" />
+	</View>
+</Alloy>

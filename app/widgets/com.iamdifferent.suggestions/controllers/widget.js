@@ -1,0 +1,3 @@
+$.getSuggestions = function() {
+	return $.suggestions;
+};

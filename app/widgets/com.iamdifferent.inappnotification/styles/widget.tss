@@ -1,0 +1,31 @@
+"#inappNotification": {
+	left				: 20,
+	right				: 20,
+	top					: 20,
+	height				: 72,
+	backgroundColor		: '#FFF',
+	viewShadowColor		: "#80000000",
+	viewShadowRadius	: 3,
+	viewShadowOffset	: {
+		x	: 0,
+		y	: 1
+	}
+}
+
+"#logo": {
+	image			: WPATH('/images/logo.png'),
+	left			: 10,
+	top				: 10,
+	width			: 44,
+	height			: 44,
+}
+
+"#message": {
+	left			: 64,
+	right			: 10,
+	color			: '#000',
+	font			: {
+		fontFamily	: 'AkkuratPro-Regular',
+		fontSize	: 16,
+	}
+}

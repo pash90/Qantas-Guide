@@ -1,0 +1,3 @@
+$.getPass = function() {
+	return $.fastpass;
+};

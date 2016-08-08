@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="baggageCheck">
+		<View id="container">
+			<View id="header">
+				<Label id="headerLabel">Check-in Baggage</Label>
+			</View>
+			
+			<Label id="message">Do you need printed baggage tags?</Label>
+			
+			<View id="baggageCounterView">
+				<Label id="stepperLabel">No of Bags :     0</Label>
+				
+				<View id="stepperView" />
+			</View>
+			
+			<Button id="primaryButton" class="actionButton" onClick="dismissAlert">NO CHECK-IN BAGGAGE</Button>
+		</View>
+	</Window>
+</Alloy>

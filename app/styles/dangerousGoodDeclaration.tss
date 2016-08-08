@@ -1,0 +1,65 @@
+"#dangerousGoodDeclaration": {
+	fullscreen		: true,
+	backgroundColor	: '#80FFFFFF',
+}
+
+"#container": {
+	top				: 108,
+	left			: 20,
+	right			: 20,
+	height			: Ti.UI.SIZE,
+	layout			: 'vertical',
+	backgroundColor	: '#FFF',
+	borderRadius	: 3,
+	viewShadowColor		: "#99000000",
+	viewShadowRadius	: 3,
+	viewShadowOffset	: {
+		x	: 1,
+		y	: 2
+	}
+}
+
+"#header": {
+	height			: 54,
+	width			: Ti.UI.FILL,
+	top				: 0,
+	layout			: 'absolute',
+	backgroundColor	: '#EE0000',
+}
+
+"#headerLabel": {
+	textAlign		: 'center',
+	color			: '#FFF',
+	font			: {
+		fontFamily	: 'AkkuratProBold',
+		fontSize	: 18,
+	}
+}
+
+"#message": {
+	top				: 20,
+	left			: 20,
+	right			: 20,
+}
+
+".actionButton": {
+	left			: 20,
+	right			: 20,
+	height			: 45,
+	color			: '#FFF',
+	font			: {
+		fontFamily	: 'AkkuratProBold',
+		fontSize	: 18,
+	}
+}
+
+"#primaryButton": {
+	top				: 20,
+	backgroundColor	: '#D9323232',
+}
+
+"#secondaryButton": {
+	top				: 10,
+	backgroundColor	: '#EE0000',
+	bottom			: 20,
+}

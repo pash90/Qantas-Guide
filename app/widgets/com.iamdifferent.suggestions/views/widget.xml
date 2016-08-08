@@ -1,0 +1,22 @@
+<Alloy>
+	<View id="suggestions">
+		<Label class="cardLabel" left="0" right="0">Your Suggestions</Label>
+		
+		<ScrollView id="scroller">
+			<View class="item" left="0">
+				<ImageView class="itemImage" image="/images/coffee.jpg" />
+				<Label class="itemLabel" text="Toby's Estate" />
+			</View>
+			
+			<View class="item">
+				<ImageView class="itemImage" image="/images/salad.jpg" />
+				<Label class="itemLabel" text="Sumo Salad" />
+			</View>
+			
+			<View class="item">
+				<ImageView class="itemImage" image='/images/drink.jpg' />
+				<Label class="itemLabel" text="Qantas Club" />
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

@@ -1,0 +1,25 @@
+<Alloy>
+	<Window id="login">
+		<Button id="closeButton" onClick="closeWindow" />
+		
+		<Label id="header">Frequent Flyer login</Label>
+		
+		<View class="field">
+			<TextField id="ffNum" />
+			<View class="bottomBorder" />
+		</View>
+		
+		<View class="field">
+			<TextField id="lastName" />
+			<View class="bottomBorder" />
+		</View>
+		
+		<View class="field">
+			<TextField id="pin" />
+			<View class="bottomBorder" />
+		</View>
+		
+		<Button id="loginButton" onClick="authenticateUser" />
+		<ActivityIndicator id="indicator" />
+	</Window>
+</Alloy>

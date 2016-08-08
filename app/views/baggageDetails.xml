@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="baggageDetails">
+		<View id="nav">
+			<Label id="welcome" />
+			
+			<Button id="logoutButton" onClick="closeDetails" />
+		</View>
+		
+		<TableView id="bags" />
+	</Window>
+</Alloy>

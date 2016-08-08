@@ -1,0 +1,36 @@
+"#fastpass": {
+	top				: 20,
+	left			: 20,
+	right			: 20,
+	borderRadius	: 2,
+	height			: 442,
+	backgroundColor	: '#FFF',
+	layout			: 'vertical',
+	viewShadowColor		: "#80000000",
+	viewShadowRadius	: 3,
+	viewShadowOffset	: {
+		x	: 0,
+		y	: 1
+	}
+}
+
+"#logo": {
+	image			: WPATH('/images/logo.png'),
+	top				: 20,
+}
+
+"#message": {
+	left			: 20,
+	right			: 20,
+	top				: 40,
+	color			: '#80000000',
+	font			: {
+		fontSize	: 16,
+		fontFamily	: 'AkkuratPro-Regular'
+	}
+}
+
+"#securityPass": {
+	top				: 20,
+	image			: WPATH('/images/securityPass.png')
+}

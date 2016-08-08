@@ -1,0 +1,18 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "os:windows": {},
+    "dependencies": {
+        "com.iamdifferent.infoAlert": "1.0",
+        "com.iamdifferent.fastpass": "1.0",
+        "com.iamdifferent.boardingpass": "1.0",
+        "com.iamdifferent.inappnotification": "1.0",
+        "com.iamdifferent.suggestions": "1.0"
+    }
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="inappNotification">
+		<ImageView id="logo" />
+		
+		<Label id="message" />
+	</View>
+</Alloy>

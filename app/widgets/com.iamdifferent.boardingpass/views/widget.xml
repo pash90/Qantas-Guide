@@ -1,0 +1,65 @@
+<Alloy>
+	<View id="boardingPass">
+		<View id="classHeader">
+			<ImageView id="logo" />
+			
+			<Label id="className">GOLD</Label>
+			
+			<Button id="baggageButton" onClick="showBaggage" />
+		</View>
+		
+		<View id="flightInfo">
+			<View id="dateView">
+				<Label id="dateLabel">07 AUG</Label>
+				
+				<Label id="dayLabel">SUN</Label>
+				
+				<View id="separator" />
+			</View>
+			
+			<View id="fromView">
+				<Label id="fromCity">SYD</Label>
+				
+				<Label id="departureTime">17:15</Label>
+			</View>
+			
+			<View id="tripView">
+				<ImageView id="tripIcon" />
+				
+				<Label id="flightNum">QF451</Label>
+			</View>
+			
+			<View id="toView">
+				<Label id="toCity">MEL</Label>
+				
+				<Label id="arrivalTime">18:30</Label>
+			</View>
+		</View>
+		
+		<View id="boardingInfo">
+			<View class="boardingItem">
+				<Label class="boardingItemTitle">BOARDING</Label>
+				
+				<Label id="boardingTime" class="boardingItemContent">16:00</Label>
+				
+				<Label id="boardingDate" class="boardingItemSecondaryContent">07 Aug 2016</Label>
+			</View>
+			
+			<View class="boardingItem">
+				<Label class="boardingItemTitle">GATE</Label>
+				
+				<Label id="boardingGate" class="boardingItemContent">6</Label>
+				
+				<Label id="boardingTerminal" class="boardingItemSecondaryContent">Terminal 1</Label>
+			</View>
+			
+			<View class="boardingItem">
+				<Label class="boardingItemTitle">SEAT</Label>
+				
+				<Label id="boardingTime" class="boardingItemContent">1A</Label>
+				
+				<Label id="boardingClass" class="boardingItemSecondaryContent">Business</Label>
+			</View>
+		</View>
+	</View>
+</Alloy>
