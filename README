@@ -1,18 +1,34 @@
-Welcome to your Appcelerator Titanium Mobile Project
+Welcome to the Qantas Guide!
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+Qantas Guide is a service (designed to be part of Qantas' existing app) designed to provide better in-airport experience to customers. It was developed after input from various different mentors and employees from Qantas during Qantas Code-Sare Hackthon 2016.
 
+It is a prototype previewing what could actually be accomplished with very little economic investment and a bit more organisational changes to existing procedures and operations at Qantas.
 
+This wiki contains the source as well as screenshots of the app we developed for the same.
 
-----------------------------------
-Stuff our legal folk make us say:
+Launch Screen
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/1.+Launch.png)
 
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
+Home - Start Ckeckin
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/2.+Home.png)
 
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
+Dangerous Goods Alert
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/3.+Home+-+Dangerous+Goods+Alert.png)
 
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
+Baggage Details & Drop
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/4.+Checkin+Bags+-+No+Bags.png)
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/5.+Checkin+Bags+-+Bags+Present.png)
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/6.+Info+-+Get+Tags.png)
 
+Finish Checkin
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/7.+Finished+Checkin.png)
+
+Boarding Pass & In-app Notifications
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/8.+Boarding+Pass.png)
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/9.+Boarding+Pass+with+In-App+Notification.png)
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/13.+The+End.png)
+
+Push Notifications
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/10.+Push+Notifications+-+1.png)
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/11.+Push+Notifications+-+2.png)
+![](https://s3-ap-southeast-2.amazonaws.com/qantas-guide/12.+Push+Notifications+-+3.png)
